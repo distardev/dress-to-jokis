@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dress to Jokis</title>
+    <link rel="stylesheet" href="styles.css">   
+    
+</head>
+<body>  
+    <div class="customizer">
+        <div class="category-bar">
+          <button class="category selected" data-category="shirt"><img src="assets/shirt.png" alt="Remera"></button>
+          <button class="category" data-category="pants"><img src="assets/pants.png" alt="Pantalón"></button>
+          <button class="category" data-category="hair"><img src="assets/hair.png" alt="Cabello"></button>
+          <button class="category" data-category="eyes"><img src="assets/eyes.png" alt="Ojos"></button>
+        </div>
+        
+        <input class="typename" type="text" id="name-input" placeholder="Tu Nombre" maxlength="10">
+
+        <div class="sprite-display">
+          <button class="nav-button left" id="actionbutton"><img src="assets/leftbutton.png" alt=""></button>
+          <div class="sprite-container">
+
+            <img class="base-layer" src="assets/base.png" alt="Base del personaje">
+
+            <!-- Aquí se arma el personaje por capas -->
+            <img class="eyes-layer" src="assets/eyes/eyes1.png">
+            <img class="shirt-layer" src="assets/shirt/shirt1.png">
+            <img class="pants-layer" src="assets/pants/pants1.png">
+            <img class="hair-layer" src="assets/hair/hair1.png">
+          </div>
+          
+
+          <button class="nav-button bgchange" id="bgchangebutton"><img src="assets/bgchangebutton.png" alt=""></button>
+
+          <button class="nav-button right" id="actionbutton"><img src="assets/rightbutton.png" alt=""></button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+
+  </body>
+</html>
