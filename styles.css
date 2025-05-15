@@ -1,6 +1,14 @@
 body{
   background-color: #0f1433;
 }
+
+@font-face {
+  font-family: 'Pixellari';
+  src: url(fonts/Pixellari.ttf) format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .customizer {
   background-image: url(assets/backgrounds/bg1.png);
   background-size: 200px;
@@ -141,7 +149,7 @@ body{
     height: 120px;
     image-rendering: pixelated;
     image-rendering: crisp-edges;
-    margin-left: 60px;
+    margin-left: 70px;
     margin-top: 150px;
 }
   
@@ -159,7 +167,8 @@ body{
     padding: 5px;
     font-size: 14px;
     text-align: center;
-    font-family: 'Press Start 2P';
+    font-family: 'Pixellari', sans-serif;
+    text-transform: uppercase;
     color: #fff;
     text-shadow:
     -1px -1px 0 #000, /* arriba izquierda */
