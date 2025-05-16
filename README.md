@@ -2,7 +2,7 @@
 
 **Dress to Jokis** es una aplicación web interactiva donde puedes crear tu propio personaje estilo pixel art, conocido como un "Joki". Todos los personajes representan a estudiantes del segundo año 2025 de UniNorte - Sede Caacupé.
 
-![preview](review.png) <!-- Puedes reemplazar esto con una captura real -->
+![preview](preview.png) <!-- Puedes reemplazar esto con una captura real -->
 
 ## ✨ Características
 
