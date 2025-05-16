@@ -8,11 +8,11 @@ https://distardev.github.io/dress-to-jokis/
 
 ## ✨ Características
 
-- Personaliza a tu personaje "Joki":
-  • Remeras
-  • Pantalones
-  • Cabello
-  • Ojos
+- Personaliza a tu personaje "Joki":                                                              
+  • Remeras    
+  • Pantalones    
+  • Cabello    
+  • Ojos    
 - Cambia el fondo de la escena.
 - Escribe tu nombre en el personaje.
 - Diseño responsivo.
@@ -39,4 +39,4 @@ https://distardev.github.io/dress-to-jokis/
 
 ## 📚 Créditos
 
-Proyecto desarrollado por Osc★r Estela, estudiante del segundo año 2025 de UniNorte, sede Caacupé.
+Proyecto desarrollado por [Osc★r Estela](https://github.com/distardev), estudiante del segundo año 2025 de UniNorte, sede Caacupé.
