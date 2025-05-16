@@ -25,12 +25,12 @@ https://distardev.github.io/dress-to-jokis/
    git clone https://github.com/tu-usuario/dress-to-jokis.git
 2. Abre index.html en tu navegador web.
 
-🛠️ Tecnologías usadas
+## 🛠️ Tecnologías usadas
 -  HTML5.
 -  CSS3.
 -  JavaScript.
 
-📌 Próximas actualizaciones
+## 📌 Próximas actualizaciones
 - Exportar personajes como imagen.
 - Más opciones de personalización.
 - Integración con una galería de personajes creados.
