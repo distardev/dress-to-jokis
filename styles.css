@@ -1,5 +1,31 @@
 body{
   background-color: #0f1433;
+  font-family: 'Pixelari', sans-serif;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;     /* 🔑 importante para centrar en pantallas altas */
+  margin: 0;
+}
+
+header{
+  background-color: #0f1433;
+  color: #fff;
+  font-family: 'Pixellari', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  line-height: 0.5;
+  margin-bottom: 25px;
+}
+
+p {
+  color: #fff;
+  font-family: 'Pixellari', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
 }
 
 @font-face {
@@ -22,7 +48,6 @@ body{
   width: 205px;
   display: flex;
   flex-direction: column;
-  align-items: center;   /* centro horizontal todo */
 }
 
 .base-layer{
@@ -35,7 +60,7 @@ body{
   .category-bar {
     display: flex;  
     gap: 5px;
-    margin-top: 12px;
+    margin-top: 8px;
     align-items: center;
   }
 
@@ -48,10 +73,11 @@ body{
 
   .category.selected img {
     background: none;
-    width: 35px;              /* por ejemplo: escalado 4x si el original era 32px */
-    height: 35px;
+    width: 45px;              /* por ejemplo: escalado 4x si el original era 32px */
+    height: 45px;
     image-rendering: pixelated;
     image-rendering: crisp-edges;
+    
   }
 
   .category img{
@@ -97,18 +123,14 @@ body{
     image-rendering: crisp-edges;
     background-repeat: no-repeat;
   }
-
-  .sprite-display {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
   
   .nav-button {
     background: none;
     border: none;
     cursor: pointer;
-    margin-top: 252px;
+    margin-top: 245px;
+    padding: 4px 10px;
+
   }
 
   .nav-button img {
@@ -116,7 +138,6 @@ body{
     height: 36px;
     image-rendering: pixelated;
     image-rendering: crisp-edges;
-
   }
 
   .nav-button img:hover {
@@ -134,32 +155,35 @@ body{
     image-rendering: crisp-edges;
   }
 
-  .sprite-display button {
-    color: #fff;
-    border: none;
-    padding: 1px 10px;
-    cursor: pointer;
+  .sprite-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sprite-container {
+    position: relative;
+    width: 100%;              /* se adapta al contenedor padre */
+    height: 180px;            /* o ajusta según lo necesario */;
+    margin-top: 60px; 
   }
   
   .sprite-container img {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 80px;              /* por ejemplo: escalado 4x si el original era 32px */
+    width: 80px;
     height: 120px;
     image-rendering: pixelated;
     image-rendering: crisp-edges;
-    margin-left: 70px;
-    margin-top: 150px;
-}
-  
+    left: -10px;
+  }
+
   .typename{
     position: absolute;
     width: 125px;
-    height: 10px;;
-    left: 100px;
-    transform: translateX(-50%);
-    top: 120px;
+    height: 10px;
+    align-items: center;
+    margin-top: 120px;
+    margin-left: 30px;
 
     background-color: transparent;
     border: none;
@@ -169,16 +193,15 @@ body{
     text-align: center;
     font-family: 'Pixellari', sans-serif;
     text-transform: uppercase;
+
     color: #fff;
     text-shadow:
-    -1px -1px 0 #000, /* arriba izquierda */
-     1px -1px 0 #000, /* arriba derecha */
-    -1px  1px 0 #000, /* abajo izquierda */
-     1px  1px 0 #000; /* abajo derecha */
+    -1px -1px 0 #0f1433, /* arriba izquierda */
+     1px -1px 0 #0f1433, /* arriba derecha */
+    -1px  1px 0 #0f1433, /* abajo izquierda */
+     1px  1px 0 #0f1433; /* abajo derecha */
 
-     text-shadow: 2px 2px 0px #000;
-
-    display: block;
-    margin-left: 10px;
-    margin-right: auto;
+     text-shadow: 2px 2px 0px #0f1433;
   }
+
+  

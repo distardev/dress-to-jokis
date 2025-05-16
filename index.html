@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dress to Jokis</title>
     <link rel="stylesheet" href="styles.css">   
-    
-</head>
-<body>  
-    <div class="customizer">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  </head>
+<body>
+    <header>
+        <h1>Dress to Jokis</h1>
+        <p>¡Crea tu propio personaje!</p>
+    </header>
+    <div id="content" class="customizer">
         <div class="category-bar">
-          <button class="category selected" data-category="shirt"><img src="assets/shirt.png" alt="Remera"></button>
+          <button class="category selected" data-category="shirt"><img src="assets/shirt.png" alt="Remera" ></button>
           <button class="category" data-category="pants"><img src="assets/pants.png" alt="Pantalón"></button>
           <button class="category" data-category="hair"><img src="assets/hair.png" alt="Cabello"></button>
           <button class="category" data-category="eyes"><img src="assets/eyes.png" alt="Ojos"></button>
@@ -39,6 +44,5 @@
     </div>
     
     <script src="script.js"></script>
-
   </body>
 </html>
